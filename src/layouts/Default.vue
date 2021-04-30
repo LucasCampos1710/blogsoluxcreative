@@ -43,7 +43,7 @@
               href="/#top"
               v-scroll-to="'#projects'"
               class="text-copy-primary hover:text-gray-600"
-            >Projects</a>
+            >Clientes</a>
             <g-link v-else to="/#projects" class="text-copy-primary hover:text-gray-600">Clientes</g-link>
           </li>
           <li>
@@ -55,7 +55,7 @@
               href="/#about"
               v-scroll-to="'#about'"
               class="text-copy-primary hover:text-gray-600"
-            >About</a>
+            >Sobre</a>
             <g-link v-else to="/#about" class="text-copy-primary hover:text-gray-600">Sobre</g-link>
           </li>
           <li>
@@ -64,7 +64,7 @@
               href="/#contact"
               v-scroll-to="'#contact'"
               class="text-copy-primary hover:text-gray-600"
-            >Contact</a>
+            >Contato</a>
             <g-link v-else to="/#contact" class="text-copy-primary hover:text-gray-600">Contato</g-link>
           </li>
           <li>

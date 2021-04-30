@@ -12,7 +12,8 @@
     </div> <!-- end hero -->
 
     <div class="container-inner mx-auto">
-      <p class="text-lg sm:text-xl">Nós da Solux Creative estamos sempre buscando inovar e ajudar o cliente a ter sempre o melhor, por isso criamos a <a href="https://www.loja.soluxcreative.com.br">SOLUX OMNI</a>. Feel free to use it for your own site or projects! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, repellat. Dolores iure, quas perspiciatis rerum quaerat atque eum repellat autem.</p>
+      <p class="text-lg sm:text-xl">Nós da Solux Creative estamos sempre buscando inovar e ajudar o cliente a ter sempre o melhor, por isso criamos a <a href="https://www.loja.soluxcreative.com.br">SOLUX OMNI</a>. 
+       O Omnichannel é uma tendência do varejo que se baseia na convergência de todos os canais utilizados por uma empresa.</p>
 
       <div class="flex justify-between items-center py-6">
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
