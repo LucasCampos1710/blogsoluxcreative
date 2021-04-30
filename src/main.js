@@ -39,17 +39,17 @@ export default function (Vue, { router, head, isClient }) {
 
   head.meta.push({
     name: 'keywords',
-    content: 'Gridsome,Auth0,Vue,Tailwind,Tailwind CSS,JavaScript,HTML,CSS,Vue.js,VueJS'
+    content: 'Solux Creative,Omni, Solux Omni, e-commerce, site, loja virtual,  loja, contabilidade, porpaganda, marketing, redes sociais, produtos, vendas.'
   })
 
   head.meta.push({
     name: 'description',
-    content: 'A Gridsome starter using Auth0 for user authentication.'
+    content: 'Site institucional da Solux Creative, blog e help referente a plataforma de e-commerce.'
   })
 
   head.meta.push({
     name: 'author',
-    content: 'Hervé Fulchiron'
+    content: 'Lucas Campos'
   })
 
   head.link.push({

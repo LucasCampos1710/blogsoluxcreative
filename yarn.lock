@@ -9896,11 +9896,6 @@ vue-loader@^15.7.1:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
-vue-localstorage@^0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/vue-localstorage/-/vue-localstorage-0.6.2.tgz#7f84c99f4ce0b6be23b16c1fab194d4d67182456"
-  integrity sha512-29YQVVkIdoS6BZBCJAyu9d0OR0eKSm5gk5OjsLssV1+NM4zJnf9cxhN1AVeXkUHJLqOonECweuaR8PZ2x307dw==
-
 vue-meta@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/vue-meta/-/vue-meta-2.2.2.tgz#ec6be76d75b7d6e4abb6d995d92245487081428b"
@@ -9954,13 +9949,6 @@ vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
-
-vue2-localstorage@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/vue2-localstorage/-/vue2-localstorage-1.2.1.tgz#a50b989e42da3541ad1e0463ca294d789596ed78"
-  integrity sha512-lIzBm7oGY5AKyTHhb2gL0B4JvZNv8B7ENodqGJsk80PxX4jm12M07iJrMZWDZUDgkgwavWv8QJ2d2y7ju3dtlQ==
-  dependencies:
-    vue "^2.6.10"
 
 vue@^2.6.10:
   version "2.6.10"

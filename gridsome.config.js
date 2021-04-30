@@ -5,9 +5,9 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome Auth0 Starter',
-  siteDescription: 'A Gridsome starter using Auth0 for user authentication.',
-  siteUrl: 'https://gridsome-auth0-starter.netlify.app',
+  siteName: 'Solux Creative',
+  siteDescription: 'Site institucional da SOlux Creative empresa de consultoria e implatação de E-commerce',
+  siteUrl: 'https://blog-soluxcreative.netlify.app',
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
@@ -75,7 +75,7 @@ module.exports = {
           title: node.title,
           description: node.summary,
           url: 'https://gridsome-auth0-starter.netlify.app' + node.path,
-          author: 'Hervé Fulchiron',
+          author: 'Lucas Campos',
           date: node.date
         }),
         output: {

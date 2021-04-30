@@ -1,9 +1,9 @@
 {
-  "name": "gridsome-auth0-starter",
+  "name": "blog-solux-creative",
   "private": true,
   "scripts": {
     "build": "gridsome build",
-    "develop": "gridsome develop",
+    "dev": "gridsome develop",
     "explore": "gridsome explore"
   },
   "dependencies": {
