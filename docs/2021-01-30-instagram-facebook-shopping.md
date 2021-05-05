@@ -3,7 +3,6 @@ title: Instagram/Facebook Shopping
 excerpt: Aprenda a criar o catalago do facebook e sacolinha do instagram e integrar com a paltaforma de E-commerce da Solux Creative.
 date: 2021-04-30
 summary: Aprenda a criar o catalago do facebook e sacolinha do instagram e integrar com a paltaforma de E-commerce da Solux Creative.
-tags: ['instagram', 'facebook', 'catalago', 'shopping', 'insta', 'sacolinha']
 ---
 
 - **Como criar um catálogo de produtos no Facebook:** 
