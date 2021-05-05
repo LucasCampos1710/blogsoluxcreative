@@ -43,16 +43,29 @@ module.exports = {
         typeName: 'Documentation', // Required
         baseDir: './docs', // Where .md files are located
         pathPrefix: '/docs', // Add route prefix. Optional
-        template: './src/templates/Documentation.vue', // Optional
+        template: './src/templates/Documentation.vue',
         plugins: [
-          [ 'gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true } ]
-      ],
+          ['gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true }]
+        ],
       }
     },
     {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'blog/**/*.md',
+        typeName: 'Post',
+        refs: {
+          tags: {
+            typeName: 'Tag',
+            create: true
+          }
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'help/**/*.md',
         typeName: 'Post',
         refs: {
           tags: {
@@ -97,7 +110,7 @@ module.exports = {
   transformers: {
     remark: {
       plugins: [
-        [ 'gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true } ]
+        ['gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true }]
       ],
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
