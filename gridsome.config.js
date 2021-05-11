@@ -10,6 +10,13 @@ module.exports = {
   siteUrl: 'https://blog-soluxcreative.netlify.app',
   plugins: [
     {
+      use: `gridsome-plugin-netlify-cms`,
+      options: {
+        publicPath: `/admin`,
+        modulePath: `src/admin/index.js`
+      }
+    },
+    {
       use: 'gridsome-plugin-tailwindcss',
       options: {
         purgeConfig: {
@@ -62,19 +69,7 @@ module.exports = {
         }
       }
     },
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'help/**/*.md',
-        typeName: 'Post',
-        refs: {
-          tags: {
-            typeName: 'Tag',
-            create: true
-          }
-        }
-      }
-    },
+   
     {
       use: 'gridsome-plugin-rss',
       options: {
@@ -117,4 +112,5 @@ module.exports = {
       anchorClassName: 'icon icon-link',
     }
   },
+  
 }
