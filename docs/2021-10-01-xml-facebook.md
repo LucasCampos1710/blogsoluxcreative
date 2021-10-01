@@ -75,4 +75,3 @@ Caso você queira adicionar as variações **Google no XML**, como por exemplo
 
 [Catálogo Facebook e Instagram Shopping](https://blog-soluxcreative.netlify.app/docs/2021-04-30-instagram-facebook-shopping/).
 
-askfhljksahfasugfashks sjfsugsujghsuk
